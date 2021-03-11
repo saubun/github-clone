@@ -7,7 +7,7 @@ export default function NavTop() {
 			<Navbar.Brand>
 				<div
 					style={{ height: '32px', width: '32px', backgroundColor: 'white' }}
-					className="d-flex justify-content-center align-items-center flex-column"
+					className="d-flex justify-content-center align-items-center flex-column ml-3 mr-2"
 				>
 					<div
 						style={{ height: '16px', width: '16px', backgroundColor: 'black' }}

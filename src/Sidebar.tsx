@@ -30,6 +30,8 @@ export default function Sidebar() {
 					paddingLeft: '20px',
 					margin: '0',
 					color: '#00A7FF',
+					fontWeight: 'bolder',
+					fontSize: '0.9rem',
 				}}
 			>
 				<li className="mt-1">saubun/saubuny-reddit</li>
@@ -40,7 +42,9 @@ export default function Sidebar() {
 				<li className="mt-1">saubun/ChatCord</li>
 				<li className="mt-1">saubun/egg-board</li>
 			</ul>
-			<p className="text-muted">show more</p>
+			<p className="text-muted mt-3" style={{ fontSize: '0.8rem' }}>
+				show more
+			</p>
 			<div
 				style={{ borderBottom: '1px solid #192129', width: '100%' }}
 				className="mb-3"
@@ -62,6 +66,8 @@ export default function Sidebar() {
 					width: '60%',
 					borderColor: '#29333B',
 					fontSize: '0.8rem',
+					fontWeight: 'bolder',
+					color: '#00A7FF',
 				}}
 			>
 				Create an organization
