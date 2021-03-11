@@ -13,7 +13,7 @@ export default function Sidebar() {
 			className="d-flex flex-column p-4"
 		>
 			<div className="d-flex flex-row align-items-end mb-2">
-				<span>Repositories</span>
+				<span style={{ color: 'white' }}>Repositories</span>
 				<Button variant="success" className="ml-auto" size="sm">
 					New
 				</Button>
@@ -45,13 +45,27 @@ export default function Sidebar() {
 				style={{ borderBottom: '1px solid #192129', width: '100%' }}
 				className="mb-3"
 			></div>
-			<p style={{ fontSize: '1.1rem', textAlign: 'left' }} className="mb-0">
+			<p
+				style={{ fontSize: '1rem', textAlign: 'left', color: 'white' }}
+				className="mb-0"
+			>
 				Working with a team?
 			</p>
 			<p className="text-muted">
 				GitHub is built for collaboration. Set up an organization to improve the
 				way your team works together, and get access to more features.{' '}
 			</p>
+			<Button
+				variant="outline-primary"
+				style={{
+					backgroundColor: '#192129',
+					width: '60%',
+					borderColor: '#29333B',
+					fontSize: '0.8rem',
+				}}
+			>
+				Create an organization
+			</Button>
 		</div>
 	);
 }

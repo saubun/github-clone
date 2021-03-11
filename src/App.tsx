@@ -4,7 +4,12 @@ import Sidebar from './Sidebar';
 
 export default function App() {
 	return (
-		<div style={{ height: '100vh', backgroundColor: '#04070C' }}>
+		<div
+			style={{
+				height: '100vh',
+				backgroundColor: '#04070C',
+			}}
+		>
 			<NavTop />
 			<Sidebar />
 		</div>
