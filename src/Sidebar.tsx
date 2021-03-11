@@ -24,24 +24,22 @@ export default function Sidebar() {
 					style={{ backgroundColor: '#090D11', border: '1px solid #192129' }}
 				/>
 			</Form>
-			<ul
+			<div
 				style={{
-					listStyle: 'none',
-					paddingLeft: '20px',
-					margin: '0',
 					color: '#00A7FF',
 					fontWeight: 'bolder',
 					fontSize: '0.9rem',
 				}}
+				className="m-0 ml-4"
 			>
-				<li className="mt-1">saubun/saubuny-reddit</li>
-				<li className="mt-1">saubun/egg-bot</li>
-				<li className="mt-1">saubun/egg-chat</li>
-				<li className="mt-1">saubun/spacex-launches</li>
-				<li className="mt-1">saubun/pythonAtom</li>
-				<li className="mt-1">saubun/ChatCord</li>
-				<li className="mt-1">saubun/egg-board</li>
-			</ul>
+				<div className="mt-1">saubun/saubuny-reddit</div>
+				<div className="mt-1">saubun/egg-bot</div>
+				<div className="mt-1">saubun/egg-chat</div>
+				<div className="mt-1">saubun/spacex-launches</div>
+				<div className="mt-1">saubun/pythonAtom</div>
+				<div className="mt-1">saubun/ChatCord</div>
+				<div className="mt-1">saubun/egg-board</div>
+			</div>
 			<p className="text-muted mt-3" style={{ fontSize: '0.8rem' }}>
 				show more
 			</p>

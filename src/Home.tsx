@@ -3,7 +3,7 @@ import { Jumbotron, Button } from 'react-bootstrap';
 
 export default function Home() {
 	return (
-		<div style={{ height: '70%', backgroundColor: 'black' }}>
+		<div style={{ height: '75%', backgroundColor: 'black' }}>
 			<Jumbotron
 				className="m-4 pt-4 pb-4"
 				style={{
